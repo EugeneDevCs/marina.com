@@ -114,17 +114,16 @@
         .button-67 {
             margin-top: 100px;
             align-items: center;
-            background: #f5f5fa;
+            background: #efefff;
             border: 0;
             border-radius: 8px;
-            box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+            box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca3a;
             box-sizing: border-box;
             color: #2a1f62;
             cursor: pointer;
             display: flex;
             font-family: 'Comforter';
-            font-weight: bold;
-            font-size: 30px;
+            font-size: 50px;
             justify-content: center;
             line-height: 1.5rem;
             padding: 15px;
@@ -181,6 +180,10 @@
             box-sizing: border-box;
             color: #2a1f62;
         }
+        
+        .background-image {
+            height: 350px;
+        }
 
         @keyframes fadeOut {
             0% { opacity: 1; }
@@ -216,6 +219,7 @@
     </div>
 
     <div class="welcome-screen">
+        <img class="background-image" src="https://i.pinimg.com/564x/c7/ad/cc/c7adcc152f96a7ee343938585c5877b3.jpg" alt="Background Image">
         <div class="welcome-text">Приглашение</div>
         <button class="button-67" role="button" onclick="hideWelcomeScreen()">Открыть</button>
     </div>
